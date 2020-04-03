@@ -28,5 +28,5 @@ jobs:
     - name: Webhook
       uses: joelwmale/webhook-action@master
       env:
-        WEBHOOK_URL: https://automationplatform.azurewebsites.net/api/runprocess
+        WEBHOOK_URL: https://automationplatform.azurewebsites.net/api/runprocessci
         data: "{\"Action\":\"verdefeb20692172408\",\"User\":{\"ID\":\"61a02af8-23a7-4d58-8bf2-f44f05ed904b\"},\"State\":\"Init\",\"JsonParams\":[[{\"VarType\":\"TEXT\",\"VarValue\":\"Mensaje10\",\"VarName\":\"var1\"}]]}"
